@@ -42,5 +42,5 @@ else{
       }
 
     //   checkProbabilityTheory(1002);
-      checkProbabilityTheory(200);
+      checkProbabilityTheory(100);
     //   checkProbabilityTheory(650);
