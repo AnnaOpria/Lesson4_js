@@ -1,35 +1,10 @@
-function pow(x, y) {
-  let answ = 1;
- 
-  if (y===0){   // проверка условия, если у=0, число в 0 степени = 1
-    return 1;
+function sumOfNumbers(n) {
+  let sum = 0;
+  for (let i=0; i<=n; i++){
+    sum=sum+n;
+    return sum;}
+ // Напишіть тут ваш код
+  
+}
 
-  } else
-  if (x===1){ // проверка условия, если х=1, число 1 в любой степени =1
-    return 1;
-
-  } else 
-  if (x===0){// проверка условия, если х=0, число 0 в любой степени =0
-    return 0;
-  } else
-    
-   for (let i=0; i<y; i++) {
-   
-answ=answ*x; 
-
-// 1 - цикл - answ = 1*2=2
-// 2- цикл i=1; 1<3 (true); i++ (1+1)
-//answ = 2*2=4
-//3 - цикл i=2; 2<3 (true); i++ (2+1)
-// answ = 4 *2= 8
-// 4- цикл i=3; 3<3 (false);  цикл - stop
-     }
-
-    return (answ);
-
-// 1 - цикл - возвращает заначение answ - 2
-// 2- цикл - возвращает - answ - 4
-//3 - цикл присваивает - answ - 8
-    }
-
-console.log(pow(2, 3));
+console.log("Сума чисел: " + sumOfNumbers(5));
