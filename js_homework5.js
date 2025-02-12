@@ -9,7 +9,7 @@ services.StrijkаJensk = "200 грн";        // Додаємо нові пос�
 services.Okrashivanie = "450 грн";
 services.StrijkаMujsk = "150 грн";
 
-delete services.Okrashivanie; // Виделяємо послугу
+delete services.Okrashivanie; // Видаляємо послугу
 
 
 function price() {
