@@ -13,8 +13,7 @@ let arr = [
 
 let trustedEmails = arr
     .map(user => user.email)
-    .filter(email =>  /^[a-zA-Z0-9]+(\.[a-zA-Z0-9]+)@(gmail\.com|yahoo\.com)$/.test(email));
+    .filter(email =>  /^[\w/]+(\.[\w/]+)@(gmail\.com|yahoo\.com)$/.test(email));
 
 console.log(trustedEmails);
-
 
